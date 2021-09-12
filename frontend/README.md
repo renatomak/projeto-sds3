@@ -28,7 +28,7 @@ O principal objetivo da aplicação é possibilitar a análise detalhada dos dad
 ## Layout
 
 <h1 align="center">
-  <img alt="layout" title="#layout pagina Web" src="./assets/proj-api-register-dev-Layout.png" />
+  <img alt="layout" title="#layout pagina Web" src="frontend/assets/proj-api-register-dev-Layout.png" />
 </h1>
 
 ## Modelo conceitual
