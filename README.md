@@ -1,15 +1,15 @@
 # DSVendas - Dashboard para análise de dados
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/renatomak/projeto-sds3/blob/main/LICENSE)
 
 ## Sobre o projeto
 
 Esta é uma aplicação full stack web construída na Semana Spring React - SDS 4.0 da DevSuperior.
-
-A aplicação tem o Backend criado em Spring Boot, java e o Banco de Dados Relacional Postgresql.
+A aplicação tem o Backend criado em Spring Boot, Java e o Banco de Dados Relacional Postgresql.
 O Frontend é feito com React, typescript e Bootstrap.
+O principal objetivo da aplicação é possibilitar a análise detalhada dos dados inseridos no Banco de Dados. É possível analisar a porcentagem e quantidade de vendas de cada vendedor.
 
-O principal objetivo da aplicação é possibilitar a análise detalhada dos dados inseridos no Banco de Dados.
+<img alt="layout" title="#video da aplicação" src="asserts/video_dsvendas.gif" />
 
 ## Itens obrigatórios:
 
@@ -28,13 +28,14 @@ O principal objetivo da aplicação é possibilitar a análise detalhada dos dad
 ## Layout
 
 <h1 align="center">
-  <img alt="layout" title="#layout pagina Web" src="./assets/home.png" />
+  <img alt="layout" title="#layout Home" src="asserts/home.png" />
+  <img alt="layout" title="#layout Dashboard" src="asserts/dashboard.png" />
 </h1>
 
 ## Modelo conceitual
 
 <h1 align="center">
-  <img alt="diagramaEER" title="#DiagramaEER" src="./src/assets/sds3-mc.png" />
+   <img alt="layout"  title="#DiagramaEER"  src="asserts/modelo-relacional.png" />
 </h1>
 
 # Tecnologias utilizadas
@@ -62,12 +63,13 @@ O principal objetivo da aplicação é possibilitar a análise detalhada dos dad
 
 1º - Clone o [Repositório](https://github.com/renatomak/projeto-sds3) do projeto no GitHub
 
-Pré-requisitos: npm / yarn
+Pré-requisitos:
+npm / yarn
+Spring Tool Suite
 
 ## Backend
 
-2. instale [Spring_Tool_Suite](https://spring.io/tools)
-3. inicialize o servidor local
+2. inicie o servidor na ferramenta [Spring_Tool_Suite](https://spring.io/tools)
 
 ## Frontend
 
@@ -81,12 +83,28 @@ Aplicação: [DSVendas](https://dsvendas-marques.netlify.app/)
 
 API: [API-DSVendas](https://sds3-renatomak.herokuapp.com/)
 
-Os endpoints disponiveis são:
+## Os endpoints disponíveis são:
 
 [sellers](https://sds3-renatomak.herokuapp.com/sellers)
 
+### Exemplo de retorno:
+
+<img alt="layout"  title="#sellers"  src="asserts/sellers.png" />
+
 [Sales_pagination](https://sds3-renatomak.herokuapp.com/sales?page=1&sort=date,desc)
+
+### Exemplo de retorno:
+
+<img alt="layout"  title="#sellers"  src="asserts/pagination.png" />
 
 [Amount_by_seller](https://sds3-renatomak.herokuapp.com/sales/amount-by-seller)
 
+### Exemplo de retorno:
+
+<img alt="layout"  title="#sellers"  src="asserts/amount_by_seller.png" />
+
 [Success_by_seller](https://sds3-renatomak.herokuapp.com/sales/success-by-seller)
+
+### Exemplo de retorno:
+
+<img alt="layout"  title="#sellers"  src="asserts/success_by_seller.png" />
