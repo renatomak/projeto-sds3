@@ -1,46 +1,92 @@
-# Getting Started with Create React App
+# DSVendas - Dashboard para análise de dados
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)
 
-## Available Scripts
+## Sobre o projeto
 
-In the project directory, you can run:
+Esta é uma aplicação full stack web construída na Semana Spring React - SDS 4.0 da DevSuperior.
 
-### `yarn start`
+A aplicação tem o Backend criado em Spring Boot, java e o Banco de Dados Relacional Postgresql.
+O Frontend é feito com React, typescript e Bootstrap.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O principal objetivo da aplicação é possibilitar a análise detalhada dos dados inseridos no Banco de Dados.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Itens obrigatórios:
 
-### `yarn test`
+- [x] Criar projetos backend e frontend;
+- [x] Salvar os projeto no Github;
+- [x] Montar o visual estático do frontend;
+- [x] Publicar o frontend no Netlify;
+      Implementar o backend
+- [x] Modelo de domínio
+- [x] Estruturar o backend no padrão camadas
+- [x] Consulta paginada de vendas
+- [x] Consultas agrupadas para gráficos
+- [x] Implantação na nuvem (Heroku)
+- [x] Integrar backend e frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Layout
 
-### `yarn build`
+<h1 align="center">
+  <img alt="layout" title="#layout pagina Web" src="./assets/proj-api-register-dev-Layout.png" />
+</h1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Modelo conceitual
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1 align="center">
+  <img alt="diagramaEER" title="#DiagramaEER" src="./src/assets/sds3-mc.png" />
+</h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Tecnologias utilizadas
 
-### `yarn eject`
+## Back end
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img src="https://spring.io/images/logo-spring-tools-gear-3dbfa4e3714afa9d58885422ec7ac8e5.svg" alt="spring" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" alt="java" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_macos_bigsur_icon_189815.png" alt="postman" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/postgresql_plain_wordmark_logo_icon_146390.png" alt="postgresql" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Front end
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/html_original_wordmark_logo_icon_146478.png" alt="html" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_logo_icon_146619.png" alt="bootstrap" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png" alt="typescript" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" alt="react" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Implantação em produção
 
-## Learn More
+<img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/netlify_logo_icon_169924.png" alt="netlify" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/heroku_plain_wordmark_logo_icon_146480.png" alt="heroku" width="40" height="40" style="max-width:100%;" /> &nbsp; &nbsp; &nbsp; &nbsp;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Como executar o projeto localmente
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1º - Clone o [Repositório](https://github.com/renatomak/projeto-sds3) do projeto no GitHub
+
+Pré-requisitos: npm / yarn
+
+## Backend
+
+2. instale [Spring_Tool_Suite](https://spring.io/tools)
+3. inicialize o servidor local
+
+## Frontend
+
+2. Entre na pasta frontend
+3. Instale as dependências - npm install ou yarn install
+4. Inicie o projeto - npm start ou yarn start
+
+## Acesse:
+
+Aplicação: [DSVendas](https://dsvendas-marques.netlify.app/)
+
+API: [API-DSVendas](https://sds3-renatomak.herokuapp.com/)
+
+Os endpoints disponiveis são:
+
+[sellers](https://sds3-renatomak.herokuapp.com/sellers)
+
+[Sales_pagination](https://sds3-renatomak.herokuapp.com/sales?page=1&sort=date,desc)
+
+[Amount_by_seller](https://sds3-renatomak.herokuapp.com/sales/amount-by-seller)
+
+[Success_by_seller](https://sds3-renatomak.herokuapp.com/sales/success-by-seller)
