@@ -83,28 +83,32 @@ Aplicação: [DSVendas](https://dsvendas-marques.netlify.app/)
 
 API: [API-DSVendas](https://sds3-renatomak.herokuapp.com/)
 
-## Os endpoints disponíveis são:
+### Os endpoints disponíveis são:
 
 [sellers](https://sds3-renatomak.herokuapp.com/sellers)
 
-### Exemplo de retorno:
+#### Exemplo de retorno:
 
 <img alt="layout"  title="#sellers"  src="asserts/sellers.png" />
 
 [Sales_pagination](https://sds3-renatomak.herokuapp.com/sales?page=1&sort=date,desc)
 
-### Exemplo de retorno:
+#### Exemplo de retorno:
 
 <img alt="layout"  title="#sellers"  src="asserts/pagination.png" />
 
 [Amount_by_seller](https://sds3-renatomak.herokuapp.com/sales/amount-by-seller)
 
-### Exemplo de retorno:
+#### Exemplo de retorno:
 
 <img alt="layout"  title="#sellers"  src="asserts/amount_by_seller.png" />
 
 [Success_by_seller](https://sds3-renatomak.herokuapp.com/sales/success-by-seller)
 
-### Exemplo de retorno:
+#### Exemplo de retorno:
 
 <img alt="layout"  title="#sellers"  src="asserts/success_by_seller.png" />
+
+## Proximos Passos
+
+- Criar os endpoints: create, update e delete.
