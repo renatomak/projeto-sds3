@@ -11,6 +11,13 @@ O principal objetivo da aplicação é possibilitar a análise detalhada dos dad
 
 <img alt="layout" title="#video da aplicação" src="asserts/video_dsvendas.gif" />
 
+---
+
+## Produção: Acesse a aplicação no link a baixo
+
+[DSVendas](https://dsvendas-marques.netlify.app/)
+
+
 ## Itens obrigatórios:
 
 - [x] Criar projetos backend e frontend;
@@ -77,9 +84,7 @@ Spring Tool Suite
 3. Instale as dependências - npm install ou yarn install
 4. Inicie o projeto - npm start ou yarn start
 
-## Acesse:
-
-Aplicação: [DSVendas](https://dsvendas-marques.netlify.app/)
+## Acesse a API:
 
 API: [API-DSVendas](https://sds3-renatomak.herokuapp.com/)
 
